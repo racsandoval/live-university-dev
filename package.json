@@ -1,0 +1,16 @@
+{
+  "name": "live-university-dev",
+  "version": "1.0.0",
+  "description": "Processo seletivo live-university",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rafael Sandoval",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

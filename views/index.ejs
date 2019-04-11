@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live University - Dev</title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <!-- jQuery -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <!-- jQuery pagination plugin -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js"
+        type="text/javascript">
+    </script>
+    <script
+        src="/scripts/index.js"
+        type="text/javascript">
+    </script>
+</head>
+<body>
+<!-- Obj1 -->
+    <div class="obj1 box">
+        <button class="option">Option</button>
+        <div>
+            <div class="child">
+                <p>Quantity</p>
+                <input type="number" placeholder="Type here">
+            </div>
+        </div>
+    </div>
+
+<!--Obj2  -->
+    <div class="obj2 box hide2">
+        <div>
+            <!-- Ready to recieve other items -->
+            <ul class="menu">
+                <li><a href="#">Dropdown <span>▼</span></a>
+                    <ul>
+                        <a href="#" class="btn-A"><li>A</li></a>
+                        <a href="#" class="btn-B"><li>B</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+ 
+<!-- Obj3 -->
+    <div class="obj3 box">
+        <ul></ul>
+        <!-- Necessary for the plugin -->
+        <div id="pagination-container"></div>
+        <div class="pagination-btns">
+            <button class="btn-prev"><</button> 
+            <button class="btn-next">></button> 
+        </div>
+    </div>
+    
+    
+</body>
